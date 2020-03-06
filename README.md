@@ -1,4 +1,5 @@
-# Corona Virus Outbreak by Country
+#### _2020-03-06 UPDATE: Added UK extract which gives breakdown for UK areas including total tested count_
+# Coronavirus Outbreak by Country
 ### What
 This is a small python script to capture data form Wikipedia Page to provide up-to-date view on the outbreak. This does not provide daily snapshot, however the script can be scheduled to run daily to get the daily view. This was built to just keep track of current state of the outbreak as a high level sumamrised view.
 
@@ -8,12 +9,15 @@ There are lot of dashboards already providing views on the outbreak. I have foun
 ### Data Source / Wikipedia Page
 https://en.wikipedia.org/wiki/2019%E2%80%9320_coronavirus_outbreak_by_country_and_territory
 
-### Report Structure
+### Summary Report Structure
 1. Fields
     1. Country or territory
     2. Cases
     3. Deaths
-    4. Recoveries	
+    4. Recoveries
+
+### UK Extract
+This gives daily level summary for UK by area, including total tested stat. This table will require some furhter tranformations depending on the usage.
 
 #### Developed by
 This script is developed by Kabir Rab.
